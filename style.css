@@ -19,7 +19,7 @@ h1 , h2 , h3 {
 
 a {
     text-decoration: none;
-    
+
 }
 /* PADDING ET MARGINS  */
 
@@ -59,4 +59,11 @@ a {
 
 .banner-heading h1 {
   color: green;
+}
+
+/* CONTACT FORMS  */
+
+.form {
+    -webkit-box-shadow: 5px 5px 15px -7px #000000; 
+    box-shadow: 5px 5px 15px -7px #000000;
 }
