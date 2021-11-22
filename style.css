@@ -16,6 +16,11 @@ h1 , h2 , h3 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
+
+a {
+    text-decoration: none;
+    
+}
 /* PADDING ET MARGINS  */
 
 
