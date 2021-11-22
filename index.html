@@ -7,25 +7,228 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Un jouet pour tous est une association promouvant le recyclage et la redistribution des jouets">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Bootstrap Library -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Un jouet pour tous: redonnez le sourire à vos jouets</title>
 </head>
 
 <body>
-    coucou
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light" aria-label="Eleventh navbar example">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample09">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Agenda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Contact</a>
+                        </li>
+                    </ul>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo-un-jouet-pour-tous.png" alt="Logo de l'association Un Jouet pour Tous"
+                            width="200px">
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- HEADER -->
+
+        <header>
+            <div class="bg-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <nav class="col navbar navbar-expand-lg navbar-light">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="images/logo-un-jouet-pour-tous.png"
+                                        alt="Logo de l'association Un Jouet pour Tous" width="200px">
+                                </a>
+
+                                <!-- bouton de bascule -->
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSmartphone" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <!-- fin de bouton de bascule -->
+                                <div id="navbarSmartphone" class="collapse navbar-collapse">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Accueil</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Agenda</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+        <!-- BANNER-->
+
+        <section class="banner">
+            <div class="banner-heading">
+                <h1>Un Jouet pour Tous</h1>
+                <p>Redonnez le sourire aux enfants</p>
+            </div>
+        </section>
+
+
+        <div class="container pb-1 pt-1">
+            <div class="row">
+                <div class="col">
+                    <img src="images/hero.jpg" class="img-fluid" alt="...">
+                </div>
+            </div>
+
+            <!-- HERO SECTION -->
+
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="images/202-2020305_jump-png-jumping-kid-transparent-png.png"
+                            class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
+                            loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="display-5 fw-bold lh-1 mb-3">Un jouet pour Tous</h2>
+                        <h3>Qu'est-ce que c'est ?</h3>
+                        <p class="lead">Il s'agit d'une campagne solidaire de collecte de jouets dont l'objectif est de
+                            partager les anciens jouets de vos enfants.
+                            De plus, ils nous aident également à préserver l'environnement car les jouets qui sont trop
+                            usés
+                            et qui ne peuvent pas être redonnés à un autre enfant, sont recyclés.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- CARDS -->
+            <h2 class="text-center pb-1 pt-1">Que faisons-nous ? </h2>
+
+            <div class="row text-center">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <div class="card bg-light rounded align-items-center p-4">
+                        <img src="/images/Icons/icone-sourire-enfant-jeu.png" alt="Icône un jouet, un sourire"
+                            width="64px">
+                        <div class="card-body">
+
+                            <div class="card-title">
+                                <h3>Un jouet, un sourire</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>Le jeu est un droit : il n'a pas seulement un caractère ludique, le jeu apprend aux
+                                    enfants à construire le Monde de demain, un Monde meilleur.</p>
+                            </div>
+                            <a class="btn button-yellow" href="#" role="button">Lien</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <div class="card bg-light rounded align-items-center p-4">
+                        <img src="/images/Icons/icone-partager-recycler-des-jouets.png"
+                            alt="Icône partager et recycler ses jouets" width="64px">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>Partager et recycler</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>Partager c'est vivre, recycler c'est aimer la planête?</p>
+                            </div>
+                            <a class="btn button-yellow" href="#" role="button">Lien</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <div class="card bg-light rounded align-items-center p-4">
+                        <img src="/images/Cards/card3.png" alt="Aide aux courses à Beaugency">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>Aide aux courses</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, doloribus.</p>
+                            </div>
+                            <a class="btn button-yellow" href="#" role="button">Lien</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- CALENDRIER -->
+
+            <h2 class="text-center pb-1 pt-1">Calendrier de nos activités</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="jumbotron text-center bg-light">
+                            <h1>Bienvenus à l'Association</h1>
+
+                            <a class="btn button-yellow " href="#" role="button">
+                                Découvrir nos activités
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                                    class="bi bi-arrow-right-short" viewbox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer : use of Flexbox -->
+
+        <footer>
+            <div class="footer">
+
+                <div><img src="images/logo-un-jouet-pour-tous.png" alt="Logo de Un Jouet pour Tous" width="125px"></div>
+                <div><a href="#">Mentions Légales</a></div>
+                <div>
+                    <p>Suivez-nous</p><i class="bi bi-facebook"></i>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
