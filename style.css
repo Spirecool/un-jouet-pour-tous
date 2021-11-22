@@ -1,5 +1,5 @@
 /* GLOBALS */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
 
 
@@ -9,13 +9,12 @@
 /* POLICES */
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 , h2 , h3 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-
 }
 /* PADDING ET MARGINS  */
 
@@ -31,4 +30,28 @@ h1 , h2 , h3 {
   display: flex;
   justify-content: space-around;
   align-items: center;;
+}
+
+
+/* BANNER SECTION */
+
+.banner {
+  background: url(images/banner-association-un-jouet-pour-tous.jpg) center;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-heading {
+  background-color: rgba(17, 17, 17, 0.356);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+}
+
+.banner-heading h1 {
+  color: green;
 }

@@ -3,8 +3,12 @@
 
 ## 1 - General Informations
 ## 2 - Technologies
+
+### CSS
+Bootstrap v5.1.1
 ### Images 
-Use of free pictures : unplash.com et pexels.com
+Use of free pictures : https://unsplash.com/ and https://www.pexels.com/fr-fr/
+Icons : https://icones8.fr/
 
 
 ## 3 - Installation
