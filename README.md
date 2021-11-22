@@ -1,10 +1,14 @@
 # Site internet : un-jouet-pour-tous
 
 
-## 1 -Informations générales
+## 1 - General Informations
 ## 2 - Technologies
+
+### CSS
+Bootstrap v5.1.1
 ### Images 
-Utilisation d'images gratuites de unplash.com et pexels.com
+Use of free pictures : https://unsplash.com/ and https://www.pexels.com/fr-fr/
+Icons : https://icones8.fr/
 
 
 ## 3 - Installation
