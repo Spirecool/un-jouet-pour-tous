@@ -15,6 +15,7 @@ body {
 h1 , h2 , h3 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
+
 }
 
 a {
@@ -24,11 +25,20 @@ a {
 /* PADDING ET MARGINS  */
 
 
-/* Boutons  */
+/* BOUTONS  */
 
 .button-yellow {
   background-color: #F7DB08;
 }
+
+
+/* MENU */
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* FOOTER  */
 .footer {
@@ -58,7 +68,8 @@ a {
 }
 
 .banner-heading h1 {
-  color: green;
+  color: white;
+  font-size: 3rem;
 }
 
 /* CONTACT FORMS  */
@@ -67,3 +78,4 @@ a {
     -webkit-box-shadow: 5px 5px 15px -7px #000000; 
     box-shadow: 5px 5px 15px -7px #000000;
 }
+
