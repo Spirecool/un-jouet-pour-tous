@@ -30,7 +30,7 @@ h1 , h2 , h3 {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 
@@ -102,7 +102,6 @@ a:hover
 
 .banner {
   background: url(images/heading.jpg) center;
-  
   height: 85vh;
   display: flex;
   flex-direction: column;
@@ -111,17 +110,31 @@ a:hover
 }
 
 .banner-heading {
-  background-color: rgba(17, 17, 17, 0.671);
-  color: white;
+  color: black;
   text-align: center;
   padding: 1.5rem 2rem;
   border-radius: 1rem;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  margin: 0 2rem;
+}
+
+.banner-heading:before {
+	content: "";
+	position: absolute;
+	background: inherit;
+	z-index: -1;
+	inset: 0;
+	filter: blur(1.5rem);
+	margin: -1.5rem;
 }
 
 .banner-heading-title {
-  color: white;
-  font-size: 3rem;
-}
+    color: black;
+    font-size: 3rem;
+  }
 
 
 
