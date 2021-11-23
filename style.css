@@ -33,20 +33,31 @@ h1 {
     font-size: 4rem;
 }
 
+
+
 h2 {
     font-size: 2.5rem;
 }
 
+@media screen and (max-width: 900px){
+    h2 {
+        font-size:2rem;
+    }
+}
 h3 {
     font-size: 2rem;
 }
 
+@media screen and (max-width: 900px){
+    h3 {
+        font-size:1.5rem;
+    }
+}
 
 .purple-sub-title {
     color: #944B9C;
 
 }
-
 
 
 /* LINKS */
@@ -61,7 +72,6 @@ a:hover
     background-color: white;
     color: #00B8EC;
 }
-
 
 
 /* BOUTONS  */
@@ -83,24 +93,12 @@ a:hover
 
 
 
-/* MENU */
-
-
-/* FOOTER  */
-.footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  ;
-}
-
-
 /************/
 /* HOMEPAGE */
 /************/
 
 
-    /* BANNER SECTION */
+    /* BANNER SECTION : USE OF FLEXBOX */
 
 .banner {
   background: url(images/heading.jpg) center;
