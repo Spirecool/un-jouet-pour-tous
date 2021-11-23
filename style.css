@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-size: 17px;
 }
 
 h1 , h2 , h3 {
@@ -22,14 +23,36 @@ a {
     text-decoration: none;
     color: #944B9C;
 }
+
+a:hover
+{
+    background-color: white;
+    color: #00B8EC;
+}
+
+
 /* PADDING ET MARGINS  */
 
 
 /* BOUTONS  */
 
-.button-yellow {
-  background-color: #F7DB08;
+.button {
+  background-color:#944B9C;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
 }
+
+.button:hover {
+    background-color:#00B8EC;
+    color: white;
+    transform: scale(1.05);
+    transition: transform .5s; 
+}
+
+
+
 
 
 /* MENU */
@@ -37,6 +60,7 @@ a {
 .menu-container {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 2rem;;
 }
 
 
@@ -92,4 +116,19 @@ a {
 {
     background-color: white;
     color: #5A4181;
+}
+.pagination > li > a:hover
+{
+    background-color: white;
+    color: #00B8EC;
+}
+
+
+
+/****************/
+/* CONTACT PAGE */
+/***************/
+
+.icons-contact {
+    display:flex;
 }
