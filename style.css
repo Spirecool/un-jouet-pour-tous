@@ -2,41 +2,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
 
-
-
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 /* POLICES */
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-size: 17px;
 }
+
+
+
+/* HEADING & SUB-TITLES */
 
 h1 , h2 , h3 {
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-}
-/* PADDING ET MARGINS  */
+    /* font-family: 'Cabin', sans-serif; */
+    font-family: 'Flayfair', sans-serif;
+  font-style: italic;
 
 
-/* Boutons  */
-
-.button-yellow {
-  background-color: #F7DB08;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
 }
 
-/* FOOTER  */
-.footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;;
+h1 {
+    font-size: 3.5rem;
 }
 
 
-/* BANNER SECTION */
+
+h2 {
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 900px){
+    h2 {
+        font-size:2rem;
+    }
+}
+h3 {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 900px){
+    h3 {
+        font-size:1.5rem;
+    }
+}
+
+.purple-sub-title {
+    color: #944B9C;
+
+}
+
+
+/* LINKS */
+
+a {
+    text-decoration: none;
+    color: #944B9C;
+}
+
+a:hover
+{
+    background-color: white;
+    color: #00B8EC;
+}
+
+
+/* BOUTONS  */
+
+.button {
+  background-color:#944B9C;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+.button:hover {
+    background-color:#00B8EC;
+    color: white;
+    transform: scale(1.05);
+    transition: transform .5s; 
+}
+
+
+
+/************/
+/* HOMEPAGE */
+/************/
+
+
+    /* BANNER SECTION : USE OF FLEXBOX */
 
 .banner {
-  background: url(images/banner-association-un-jouet-pour-tous.jpg) center;
+  background: url(images/heading.jpg) center;
   height: 85vh;
   display: flex;
   flex-direction: column;
@@ -45,13 +110,62 @@ h1 , h2 , h3 {
 }
 
 .banner-heading {
-  background-color: rgba(17, 17, 17, 0.356);
-  color: white;
+  color: black;
   text-align: center;
   padding: 1.5rem 2rem;
   border-radius: 1rem;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  margin: 0 2rem;
 }
 
-.banner-heading h1 {
-  color: green;
+.banner-heading:before {
+	content: "";
+	position: absolute;
+	background: inherit;
+	z-index: -1;
+	inset: 0;
+	filter: blur(1.5rem);
+	margin: -1.5rem;
+}
+
+.banner-heading-title {
+    color: black;
+    font-size: 3rem;
+  }
+
+
+
+
+/***************/
+/* AGENDA PAGE */
+/***************/
+
+.pagination > li > a
+{
+    background-color: white;
+    color: #5A4181;
+}
+.pagination > li > a:hover
+{
+    background-color: white;
+    color: #00B8EC;
+}
+
+.purple-text {
+    color: #944B9C;
+    font-weight: 600;
+}
+
+/****************/
+/* CONTACT PAGE */
+/***************/
+
+
+
+.form {
+    -webkit-box-shadow: 5px 5px 15px -7px #000000; 
+    box-shadow: 5px 5px 15px -7px #000000;
 }
