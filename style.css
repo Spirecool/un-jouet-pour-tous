@@ -13,11 +13,36 @@ body {
   font-size: 17px;
 }
 
-h1 , h2 , h3 {
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
 
+
+/* HEADING & SUB-TITLES */
+
+
+h1 , h2 , h3 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
 }
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+
+.blue-sub-title {
+    color: #00B8EC;
+    font-weight: bold;
+}
+
+/* LINKS */
 
 a {
     text-decoration: none;
@@ -51,7 +76,6 @@ a:hover
 
 
 
-
 /* MENU */
 
 .menu-container {
@@ -67,6 +91,9 @@ a:hover
   justify-content: space-around;
   align-items: center;;
 }
+
+
+
 /************/
 /* HOMEPAGE */
 /************/
@@ -95,6 +122,8 @@ a:hover
   color: white;
   font-size: 3rem;
 }
+
+
 
 /* CONTACT FORMS  */
 
