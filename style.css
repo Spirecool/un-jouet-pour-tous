@@ -20,7 +20,7 @@ h1 , h2 , h3 {
 
 a {
     text-decoration: none;
-
+    color: #944B9C;
 }
 /* PADDING ET MARGINS  */
 
@@ -46,6 +46,9 @@ a {
   justify-content: space-around;
   align-items: center;;
 }
+/************/
+/* HOMEPAGE */
+/************/
 
 
 /* BANNER SECTION */
@@ -67,7 +70,7 @@ a {
   border-radius: 1rem;
 }
 
-.banner-heading h1 {
+.banner-heading-title {
   color: white;
   font-size: 3rem;
 }
@@ -79,3 +82,14 @@ a {
     box-shadow: 5px 5px 15px -7px #000000;
 }
 
+
+
+/***************/
+/* AGENDA PAGE */
+/***************/
+
+.pagination > li > a
+{
+    background-color: white;
+    color: #5A4181;
+}
