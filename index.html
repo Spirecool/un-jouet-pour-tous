@@ -22,49 +22,46 @@
 
     <!-- NAVIGATION -->
 
-    <div class="container menu-container">
-        <a class="navbar-brand" href="index.html">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a href="/" class="navbar-brand mb-0">
             <img src="images/logo-un-jouet-pour-tous.png" alt="Logo de l'association Un Jouet pour Tous" width="200px"
-                loading="lazy">
+                loading="lazy" class="d-inline-block align-top">
         </a>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </svg> </button>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active px-4" aria-current="page" href="/index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-4" href="/agenda.html">Agenda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-4" href="/contact.html">Contact</a>
+                </li>
+            </ul>
 
-                <div class="collapse navbar-collapse" id="navbarsExample09">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active px-4" aria-current="page" href="/index.html">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4" href="/agenda.html">Agenda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4" href="/contact.html">Contact</a>
-                        </li>
-                    </ul>
+        </div>
+    </nav>
 
-                </div>
-            </div>
-        </nav>
-    </div>
 
-    <div class="container">
 
-        <!-- BANNER-->
+    <!-- BANNER-->
+    <div class="container-fluid">
 
         <section class="banner">
             <div class="banner-heading">
-                <p class="banner-heading-title">Un Jouet pour Tous</p>
+                <p class="banner-heading-title">Association Un Jouet pour <span class="purple-text">Tous</span></p>
                 <p>Redonnez le sourire aux enfants</p>
             </div>
         </section>
+    </div>
 
+    <div class="container">
 
 
 
@@ -77,7 +74,7 @@
 
                 <div class="col-lg-6">
                     <h1 class="display-5 fw-bold lh-1 mb-3">Un jouet pour Tous</h1>
-                    <p class="col-10 fs-4 pb-5 blue-sub-title">Qu'est-ce que c'est ?</p>
+                    <p class="col-10 fs-4 pb-5 purple-sub-title">Qu'est-ce que c'est ?</p>
                     <p class="pb-3"><strong>Un Jouet pour Tous</strong> est une campagne solidaire de collecte de jouets
                         dont l'objectif est de <strong>partager les anciens jouets de vos enfants.</strong>
                         De plus, ils nous aident également à préserver l'environnement car les jouets qui sont trop usés
@@ -164,7 +161,7 @@
                 </div>
                 <div class="col-lg-6">
                     <h2 class="lh-1 mb-3">Calendrier de nos activités</h2>
-                    <p class="fs-4 pb-5 blue-sub-title">Venez, c'est gratuit !</p>
+                    <p class="fs-4 pb-5 purple-sub-title">Venez, c'est gratuit !</p>
                     <p class="pb-3">Un Jouet pour Tous propose des <strong>collectes de jouets dans toute la
                             France</strong>, et des <strong>conférences en accès libre</strong>, sur le thème de
                         l'éducation des enfants.
@@ -199,15 +196,14 @@
                 3750 € / 5000 €
             </div>
         </div>
-
-
     </div>
 
 
     <!-- FOOTER : USE OF FLEXBOX -->
 
     <footer>
-        <div class="footer p-5 mt-5 border-top border-light">
+
+        <div class="footer p-5 mt-5 border-top border-light footer">
 
             <div>
                 <a href="#">Mentions Légales</a>
@@ -229,7 +225,6 @@
             </div>
         </div>
     </footer>
-
 
 
     <!-- JAVASCRIPT SCRIPTS-->
